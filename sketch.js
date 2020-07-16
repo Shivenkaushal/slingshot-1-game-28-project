@@ -27,7 +27,7 @@ function setup() {
   
  
   bird = new Bird(150, 300, 25);
-  box1 = new box(620,380)
+  box2 = new box(620,380)
 ground= new Ground(551,400,1311,20)
 
   slingshot = new SlingShot({x:170,y:300,},bird.body );
@@ -47,7 +47,7 @@ function draw() {
   background(bkgImg);
   Matter.Engine.update(engine);
 
-  box1.display();
+  box2.display();
   ground.display();
   slingshot.display();
   bird.display();
