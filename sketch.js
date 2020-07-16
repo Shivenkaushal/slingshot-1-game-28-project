@@ -64,7 +64,6 @@ function keyPressed() {
 }
 function mouseReleased(){
 setTimeout(()=>{
-  
-  slingshot.fly()
+ slingshot.fly()
 },100)
 }
