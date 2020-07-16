@@ -27,7 +27,7 @@ function setup() {
   
  
   bird = new Bird(150, 300, 25);
-  box1 = new box(620,380,10,120)
+  box1 = new box(620,380)
 ground= new Ground(551,400,1311,20)
 
   slingshot = new SlingShot({x:170,y:300,},bird.body );
